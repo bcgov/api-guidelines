@@ -4,7 +4,7 @@ title: "BC Government API Guidelines"
 description: "The purpose of these guidelines is to promote consistency and provide guidance around the use of Application Programming Interfaces (APIs) across the BC government, and to enable exchange and integration of data between systems, agencies, businesses and citizens."
 
 ---
-_NOTE: This is a working draft, posted here for your [feedback](https://github.com/bcgov/api-guidelines/issues/new). We gratefully acknowledge the assistance of the Government of Canada in sharing their API standards, providing a baseline for this document._
+_NOTE: This is a working draft, [posted here for your feedback](https://github.com/bcgov/api-guidelines/issues/new). We gratefully acknowledge the assistance of the Government of Canada in sharing their API standards, providing a baseline for this document._
 
 # Government of British Columbia API Guidelines DRAFT
 
