@@ -149,7 +149,7 @@ APIs will change over time as corresponding source systems evolve.  To provide a
 
 - **_Use Standard Endpoints_**  **–** each endpoint is a combination of the URI path (e.g. www.gov.bc.ca/finances/accounts/) and the verb (e.g. GET, PUT, POST, DELETE)
 
-**_https://\&lt;base domain\&gt;/\&lt;business function\&gt;/\&lt;application name\&gt;/\&lt;plural noun\&gt;_**
+**_https://<base domain>/<business function>/<application name>/<plural noun>_**
 
 - **_API_**** _Versioning_**– each iteration of an API must be versioned. Every change to an API, no matter how small, should be indicated by a new version. Follow the v_\&lt;Major\&gt;.\&lt;Minor\&gt;.\&lt;Patch\&gt;_ versioning structure whereby:
   - _Major_ = Significant release which is likely to break backwards compatibility
