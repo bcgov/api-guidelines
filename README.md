@@ -1,1 +1,1 @@
-Government of British Columbia API Guidelines.md
+government-of-british-columbia-api-guidelines.md
