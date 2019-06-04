@@ -1,1 +1,1 @@
-# api-development-guidelines
+Government of British Columbia API Guidelines.md
