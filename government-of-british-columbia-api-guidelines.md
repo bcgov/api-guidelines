@@ -20,15 +20,15 @@ _NOTE: This is a working draft, [posted here for your feedback](https://github.c
 
 ## Design Principles:
 
-- **API as a Product** : apply the product owner role to API&#39;s
-- **Simplicity and Reusability** : strive to make the API the best way for clients to consume your data
-- **Consistency** : design API&#39;s with a common look and feel using a consistent style and syntax
-- **Security by Design** : adopt a philosophy where security is inherent in API development
-- **Continuous Improvement** : actively improve and maintain API&#39;s over time by incorporating consumer feedback
-- **Sustainability** : avoid short-term optimizations at the expense of unnecessary client-side obligations
-- **Quality** : ensure flexibility, scalability and that your API presents actionable data to the consumer
-- **Well Described** : adopt a simple, consistent and durable API specification and endpoint naming standard that includes API meta information
-- **Open Standards Based** : stay compliant with the standard HTTP methods including status and error codes
+- **_API as a Product_** : apply the product owner role to API's
+- **_Simplicity and Reusability_** : strive to make the API the best way for clients to consume your data
+- **_Consistency_** : design API&#39;s with a common look and feel using a consistent style and syntax
+- **_Security by Design_** : adopt a philosophy where security is inherent in API development
+- **_Continuous Improvement_** : actively improve and maintain API&#39;s over time by incorporating consumer feedback
+- **_Sustainability_** : avoid short-term optimizations at the expense of unnecessary client-side obligations
+- **_Quality_** : ensure flexibility, scalability and that your API presents actionable data to the consumer
+- **_Well Described_** : adopt a simple, consistent and durable API specification and endpoint naming standard that includes API meta information
+- **_Open Standards Based_** : stay compliant with the standard HTTP methods including status and error codes
 
 ## Design Patterns:
 
