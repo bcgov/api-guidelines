@@ -54,7 +54,7 @@ _NOTE: This is a working draft, [posted here for your feedback](https://github.c
 
 | **Method** | **Safe** | **Idempotent** | **Cacheable** |
 | --- | --- | --- | --- |
-| [GET](https://opensource.zalando.com/restful-api-guidelines/#get) | ? Yes | ? Yes | ? Yes |
+| [GET](https://opensource.zalando.com/restful-api-guidelines/#get) | - [x] Yes | ? Yes | ? Yes |
 | [HEAD](https://opensource.zalando.com/restful-api-guidelines/#head) | ? Yes | ? Yes | ? Yes |
 | [POST](https://opensource.zalando.com/restful-api-guidelines/#post) | ? No | ?? No, but [**Should**](https://opensource.zalando.com/restful-api-guidelines/#229)[: Consider To Design POST and PATCH Idempotent](https://opensource.zalando.com/restful-api-guidelines/#229) | ?? May, but only if specific [POST](https://opensource.zalando.com/restful-api-guidelines/#post) endpoint is [safe](https://opensource.zalando.com/restful-api-guidelines/#safe). **Hint:** not supported by most caches. |
 | [PUT](https://opensource.zalando.com/restful-api-guidelines/#put) | ? No | ? Yes | ? No |
@@ -151,7 +151,7 @@ APIs will change over time as corresponding source systems evolve.  To provide a
 
 `https://<base domain>/<business function>/<application name>/<plural noun>`
 
-- **_API_**** _Versioning_**– each iteration of an API must be versioned. Every change to an API, no matter how small, should be indicated by a new version. Follow the v_\&lt;Major\&gt;.\&lt;Minor\&gt;.\&lt;Patch\&gt;_ versioning structure whereby:
+- **_API_**** _Versioning_**– each iteration of an API must be versioned. Every change to an API, no matter how small, should be indicated by a new version. Follow the `v<Major>.<Minor>.<Patch>` versioning structure whereby:
   - _Major_ = Significant release which is likely to break backwards compatibility
   - _Minor_ = Addition of optional attributes or new functionality that is backwards compatible, but should be tested
   - _Patch_ = Internal fix which should not impact the schema and/or contract of the API
