@@ -1,6 +1,6 @@
 ---
 
-title: "BC Government API Guidelines"
+title: "Government of British Columbia API Guidelines DRAFT"
 description: "The purpose of these guidelines is to promote consistency and provide guidance around the use of Application Programming Interfaces (APIs) across the BC government, and to enable exchange and integration of data between systems, agencies, businesses and citizens."
 
 ---
