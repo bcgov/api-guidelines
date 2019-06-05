@@ -156,17 +156,15 @@ APIs will change over time as corresponding source systems evolve.  To provide a
   - _Minor_ = Addition of optional attributes or new functionality that is backwards compatible, but should be tested
   - _Patch_ = Internal fix which should not impact the schema and/or contract of the API
 
-_For example:_
+  _For example:_
 
--
   - moving from v1.1.0 to v1.1.1 would allow a simple deploy-in-place upgrade
   - moving from v1.1.0 to v2.0.0 would be a major release and would require the legacy version to be kept while consumers test and migrate to the new version
 
 - **_Use the Accept Header to Version_** – using a resource specific header approach can be used to maintain a single and consistent URI for an API.  This method also allows for other parameters such as caching, compression and content negotiation.  IETF legitimized this approach in [RFC4627](http://www.ietf.org/rfc/rfc4627.txt).
 
-_For example:_
-
-  - Accept: application/vnd.example+json;version=1.0
+  _For example:_
+  `Accept: application/vnd.example+json;version=1.0`
 
 - **_Avoid URI Versioning_** – you are guaranteed to break client integration when using URI versioning and is therefore recommended to version within the Accept header
 
