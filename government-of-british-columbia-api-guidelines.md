@@ -54,14 +54,14 @@ _NOTE: This is a working draft, [posted here for your feedback](https://github.c
 
 | **Method** | **Safe** | **Idempotent** | **Cacheable** |
 | --- | --- | --- | --- |
-| [GET](https://opensource.zalando.com/restful-api-guidelines/#get) | - [x] Yes | ? Yes | ? Yes |
-| [HEAD](https://opensource.zalando.com/restful-api-guidelines/#head) | ? Yes | ? Yes | ? Yes |
-| [POST](https://opensource.zalando.com/restful-api-guidelines/#post) | ? No | ?? No, but [**Should**](https://opensource.zalando.com/restful-api-guidelines/#229)[: Consider To Design POST and PATCH Idempotent](https://opensource.zalando.com/restful-api-guidelines/#229) | ?? May, but only if specific [POST](https://opensource.zalando.com/restful-api-guidelines/#post) endpoint is [safe](https://opensource.zalando.com/restful-api-guidelines/#safe). **Hint:** not supported by most caches. |
-| [PUT](https://opensource.zalando.com/restful-api-guidelines/#put) | ? No | ? Yes | ? No |
-| [PATCH](https://opensource.zalando.com/restful-api-guidelines/#patch) | ? No | ?? No, but [**Should**](https://opensource.zalando.com/restful-api-guidelines/#229)[: Consider To Design POST and PATCH Idempotent](https://opensource.zalando.com/restful-api-guidelines/#229) | ? No |
-| [DELETE](https://opensource.zalando.com/restful-api-guidelines/#delete) | ? No | ? Yes | ? No |
-| [OPTIONS](https://opensource.zalando.com/restful-api-guidelines/#options) | ? Yes | ? Yes | ? No |
-| [TRACE](https://opensource.zalando.com/restful-api-guidelines/#trace) | ? Yes | ? Yes | ? No |
+| [GET](https://opensource.zalando.com/restful-api-guidelines/#get) | :heavy_check_mark: Yes | :heavy_check_mark: Yes | :heavy_check_mark: Yes |
+| [HEAD](https://opensource.zalando.com/restful-api-guidelines/#head) | :heavy_check_mark: Yes | :heavy_check_mark: Yes | :heavy_check_mark: Yes |
+| [POST](https://opensource.zalando.com/restful-api-guidelines/#post) | :x: No | :heavy_exclamation_mark: No, but [**Should**](https://opensource.zalando.com/restful-api-guidelines/#229)[: Consider To Design POST and PATCH Idempotent](https://opensource.zalando.com/restful-api-guidelines/#229) | :small_orange_diamond: May, but only if specific [POST](https://opensource.zalando.com/restful-api-guidelines/#post) endpoint is [safe](https://opensource.zalando.com/restful-api-guidelines/#safe). **Hint:** not supported by most caches. |
+| [PUT](https://opensource.zalando.com/restful-api-guidelines/#put) | :x: No | :heavy_check_mark: Yes | :x: No |
+| [PATCH](https://opensource.zalando.com/restful-api-guidelines/#patch) | :x: No | :heavy_exclamation_mark: No, but [**Should**](https://opensource.zalando.com/restful-api-guidelines/#229)[: Consider To Design POST and PATCH Idempotent](https://opensource.zalando.com/restful-api-guidelines/#229) | :x: No |
+| [DELETE](https://opensource.zalando.com/restful-api-guidelines/#delete) | :x: No | :heavy_check_mark: Yes | :x: No |
+| [OPTIONS](https://opensource.zalando.com/restful-api-guidelines/#options) | :heavy_check_mark: Yes | :heavy_check_mark: Yes | :x: No |
+| [TRACE](https://opensource.zalando.com/restful-api-guidelines/#trace) | :heavy_check_mark: Yes | :heavy_check_mark: Yes | :x: No |
 
 **_Source:_** [_https://opensource.zalando.com/restful-api-guidelines/#http-requests_](https://opensource.zalando.com/restful-api-guidelines/#http-requests)
 
