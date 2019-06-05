@@ -180,7 +180,7 @@ APIs will change over time as corresponding source systems evolve.  To provide a
   - Support response time (e.g., within the hour, 24 hours, best effort)
   - Scheduled outages (e.g., nightly, weekly, every 2nd Sunday evening)
   - Throughput limit (e.g., 100 requests per second per consumer)
-  - Message size limit (e.g., \&lt;1Mb per request)
+  - Message size limit (e.g., <1Mb per request)
 - **_API Publishing_** – all APIs should be published to the API Store for the purposes of discovery and lifecycle management.  APIs must be tagged with the appropriate metadata to indicate their desired audience (security classification) and appropriate usage patterns
 
 # API Performance Management
