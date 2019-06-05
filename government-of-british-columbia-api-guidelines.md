@@ -151,7 +151,7 @@ APIs will change over time as corresponding source systems evolve.  To provide a
 
 `https://<base domain>/<business function>/<application name>/<plural noun>`
 
-- **_API_**** _Versioning_**– each iteration of an API must be versioned. Every change to an API, no matter how small, should be indicated by a new version. Follow the `v<Major>.<Minor>.<Patch>` versioning structure whereby:
+- **_API Versioning_** – each iteration of an API must be versioned. Every change to an API, no matter how small, should be indicated by a new version. Follow the `v<Major>.<Minor>.<Patch>` versioning structure whereby:
   - _Major_ = Significant release which is likely to break backwards compatibility
   - _Minor_ = Addition of optional attributes or new functionality that is backwards compatible, but should be tested
   - _Patch_ = Internal fix which should not impact the schema and/or contract of the API
