@@ -50,7 +50,7 @@ _NOTE: This is a working draft, [posted here for your feedback](https://github.c
   - POST – create a new resource or initiate an action
   - PUT – update or replace an existing resource
   - DELETE – remove a resource
-- **Follow properties according to** [**RFC 7231**](https://tools.ietf.org/html/rfc7231):
+- **Follow properties according to** [**RFC 7231**](https://tools.ietf.org/html/rfc7231) and [**RFC 5789 **](https://tools.ietf.org/html/rfc5789):
 
 | **Method** | **Safe** | **Idempotent** | **Cacheable** |
 | --- | --- | --- | --- |
