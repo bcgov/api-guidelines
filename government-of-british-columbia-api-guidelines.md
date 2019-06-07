@@ -52,13 +52,13 @@ _NOTE: This is a working draft, [posted here for your feedback](https://github.c
   - DELETE – remove a resource
 - **Follow properties according to** [**RFC 7231**](https://tools.ietf.org/html/rfc7231) and **[RFC 5789](https://tools.ietf.org/html/rfc5789)**:
 
-| **Method** | **Safe** | **Idempotent** | **Cacheable** |
+| **Method** | **[Safe](https://tools.ietf.org/html/rfc7231#section-4.2.1)** | **[Idempotent](https://tools.ietf.org/html/rfc7231#section-4.2.2)** | **[Cacheable](https://tools.ietf.org/html/rfc7231#section-4.2.3)** |
 | --- | --- | --- | --- |
 | [GET](https://tools.ietf.org/html/rfc7231#section-4.3.1) | :heavy_check_mark: Yes | :heavy_check_mark: Yes | :heavy_check_mark: Yes |
 | [HEAD](https://tools.ietf.org/html/rfc7231#section-4.3.2) | :heavy_check_mark: Yes | :heavy_check_mark: Yes | :heavy_check_mark: Yes |
-| [POST](https://tools.ietf.org/html/rfc7231#section-4.3.3) | :x: No | :heavy_exclamation_mark: No, but [**Should**](https://opensource.zalando.com/restful-api-guidelines/#229)[: Consider To Design POST and PATCH Idempotent](https://opensource.zalando.com/restful-api-guidelines/#229) | :small_orange_diamond: May, but only if specific [POST](https://opensource.zalando.com/restful-api-guidelines/#post) endpoint is [safe](https://opensource.zalando.com/restful-api-guidelines/#safe). **Hint:** not supported by most caches. |
+| [POST](https://tools.ietf.org/html/rfc7231#section-4.3.3) | :x: No | :heavy_exclamation_mark: No, but [**Should**: Consider To Design POST and PATCH Idempotent](https://opensource.zalando.com/restful-api-guidelines/#229) | :small_orange_diamond: May, but only if specific [POST](https://tools.ietf.org/html/rfc7231#section-4.3.3) endpoint is [safe](https://tools.ietf.org/html/rfc7231#section-4.2.1). **Hint:** not supported by most caches. |
 | [PUT](https://tools.ietf.org/html/rfc7231#section-4.3.4) | :x: No | :heavy_check_mark: Yes | :x: No |
-| [PATCH](https://tools.ietf.org/html/rfc5789) | :x: No | :heavy_exclamation_mark: No, but [**Should**](https://opensource.zalando.com/restful-api-guidelines/#229)[: Consider To Design POST and PATCH Idempotent](https://opensource.zalando.com/restful-api-guidelines/#229) | :x: No |
+| [PATCH](https://tools.ietf.org/html/rfc5789) | :x: No | :heavy_exclamation_mark: No, but [**Should**: Consider To Design POST and PATCH Idempotent](https://opensource.zalando.com/restful-api-guidelines/#229) | :x: No |
 | [DELETE](https://tools.ietf.org/html/rfc7231#section-4.3.5) | :x: No | :heavy_check_mark: Yes | :x: No |
 | [OPTIONS](https://tools.ietf.org/html/rfc7231#section-4.3.7) | :heavy_check_mark: Yes | :heavy_check_mark: Yes | :x: No |
 | [TRACE](https://tools.ietf.org/html/rfc7231#section-4.3.8) | :heavy_check_mark: Yes | :heavy_check_mark: Yes | :x: No |
