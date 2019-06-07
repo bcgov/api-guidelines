@@ -1,11 +1,11 @@
 ---
 
-title: "the Privince of BC API Guidelines"
+title: "Privince of BC API Guidelines"
 description: "This is a working draft, [posted here for your feedback](https://github.com/bcgov/api-guidelines/issues/new). We gratefully acknowledge the assistance of [the Government of Canada in sharing their API standards](https://www.canada.ca/en/government/system/digital-government/modern-emerging-technologies/government-canada-standards-apis.html), providing a baseline for this document."
 
 ---
 
-# the Privince of BC API Guidelines
+# Privince of BC API Guidelines
 
 **Purpose** : The purpose of these guidelines is to promote consistency and provide guidance around the use of Application Programming Interfaces (APIs) across the BC government, and to enable exchange and integration of data between systems, agencies, businesses and citizens.
 
