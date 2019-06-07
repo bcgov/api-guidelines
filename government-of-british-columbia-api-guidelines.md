@@ -68,10 +68,9 @@ _NOTE: This is a working draft, [posted here for your feedback](https://github.c
 - **_USE W3C HTTP Methods_** – follow the standard methods as described by the W3 Consortium - [https://www.w3.org/Protocols/rfc2616/rfc2616-sec9.html](https://www.w3.org/Protocols/rfc2616/rfc2616-sec9.html)
 - **_Segment response data for large queries_** – APIs exposing large datasets must support some form of data segmentation. The following are some common patterns for pagination along with appropriate use cases:
 
--
-  - _page_ and _per\_page_ – best used to navigate large static datasets (e.g., reference data) where the same set of data is likely to be returned given the same page reference over time
-  - _offset_ and _limit_ – best used for APIs fronting Structured Query Language (SQL) based backends where the offset represents the data cursor on a given indexed column
-  - _since_ and _limit_ – Best used for queries where the consumer is interested in the delta since the last query and the backend data structure is indexed based on time
+  - _`page`_ and _`per_page`_ – best used to navigate large static datasets (e.g., reference data) where the same set of data is likely to be returned given the same page reference over time
+  - _`offset`_ and _`limit`_ – best used for APIs fronting Structured Query Language (SQL) based backends where the offset represents the data cursor on a given indexed column
+  - _`since`_ and _`limit`_ – Best used for queries where the consumer is interested in the delta since the last query and the backend data structure is indexed based on time
 
 - **_Respond with message schemas that are easy to understand and consume -_**  **the following practices should be applied:**
 
