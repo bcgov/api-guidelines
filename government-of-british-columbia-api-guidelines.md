@@ -1,7 +1,7 @@
 ---
 
 title: "BC Government API Guidelines"
-description: "Privince of British Columbia API Guidelines - DRAFT"
+description: "Province of British Columbia API Guidelines - DRAFT"
 
 ---
 _NOTE: This is a working draft, [posted here for your feedback](https://github.com/bcgov/api-guidelines/issues/new). We gratefully acknowledge the assistance of [the Government of Canada in sharing their API standards](https://www.canada.ca/en/government/system/digital-government/modern-emerging-technologies/government-canada-standards-apis.html), providing a baseline for this document._
