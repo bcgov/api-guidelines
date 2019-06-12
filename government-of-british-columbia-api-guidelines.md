@@ -115,7 +115,7 @@ Consistent metadata and encoding ensures that APIs are interoperable across orga
 - **_Standardize Datetime Format_** – use the ISO 8601 Standard for datetime representation in all BC Government APIs.  The standard date format is YYYY-MM-DD while timestamp format YYYY—MM-DD HH24:MI:SS.  If other formats are required due to source system limitations, convert it to the standard format within the API
 - **_Support Official Languages_** – ensure the API can return responses in both English and French.   External facing APIs must reply with content in the requested language if the backend data support it. APIs must interpret the ACCEPT-LANGUAGE HTTP header and return the appropriate content. If the header is not set, then content in both languages should be returned
 - **_Publish to the BC Data Catalogue_** – publishing a metadata record to the BC Data Catalogue helps people discover your API and promote its use
-  - The BC Government API Registry can be found here: [https://catalogue.data.gov.bc.ca/he/group/bc-government-api-registry](https://catalogue.data.gov.bc.ca/he/group/bc-government-api-registry)
+  - The BC Government API Registry can be found here: [https://catalogue.data.gov.bc.ca/group/bc-government-api-registry](https://catalogue.data.gov.bc.ca/group/bc-government-api-registry)
 
 # API Documentation
 
