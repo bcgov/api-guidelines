@@ -209,5 +209,3 @@ API performance should be benchmarked periodically to ensure the performance and
 - **_Performance Monitoring_** – performance should be monitored and reported on routinely, particularly as part of major releases
 - **_API Throttling_** – throttling mechanisms should be implemented to control throughput against the stated SLO (e.g. number of requests per second).  This is typically handled by the API Gateway:
   - Information on the primary BC Government API Gateway can be found [here](https://developer.gov.bc.ca/Developer-Tools/API-Gateway-(powered-by-Kong-CE))
-
-# 
