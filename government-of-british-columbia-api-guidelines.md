@@ -181,7 +181,7 @@ APIs will change over time as corresponding source systems evolve.  To provide a
   - Previous versions of an API can use a versioned style URI
     - _e.g._ https://api.example.com/v1
   - Accept header versioning is recommended for API's designed exclusively for machine to machine interfaces as well as non breaking changes (minor/patch)
-    - _e.g._ Accept: application/vnd.example+json;version=1.0
+    - _e.g._ https://news.api.gov.bc.ca/api/Home?api-version=1
 
 - **_Respect Existing Consumer Dependencies_** – support at least one previous major version (N-1) to ensure consuming systems have time to migrate to the latest version of the API
   - Set and publish a version deprecation policy and timeline so consumers can plan their dependencies accordingly
