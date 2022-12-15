@@ -37,7 +37,7 @@ Published by the [Technical Assets Working Group](mailto:jeff.card@gov.bc.ca) un
 - **_Use a RESTful Approach_** – use HTTPS request/response format for data access and manipulation and provide proper error responses to the client
 - **_Use JSON_** – use JavaScript Object Notation (JSON) as the message structure for all web service APIs
   - Form responses as a JSON object and not an array
-  - Use consistent grammar case by using underscore or CamelCase
+  - Use consistent grammar case by using snake_case or CamelCase
   - APIs into legacy systems may be required to use a different representation such as XML
 - **_Use URIs to represent resources_** – URIs (Uniform Resource Identifiers) represent business entities, not the operations on those entities.  If data is returned as a part of a response, use URIs to uniquely identify the data as a resource
 - **_Always Use HTTPS_** –
@@ -67,7 +67,7 @@ Published by the [Technical Assets Working Group](mailto:jeff.card@gov.bc.ca) un
 
 **_Source:_** [_https://opensource.zalando.com/restful-api-guidelines/#http-requests_](https://opensource.zalando.com/restful-api-guidelines/#http-requests)
 
-- **_USE W3C HTTP Methods_** – follow the standard methods as described by the W3 Consortium - [https://www.w3.org/Protocols/rfc2616/rfc2616-sec9.html](https://www.w3.org/Protocols/rfc2616/rfc2616-sec9.html)
+- **_USE W3C HTTP Methods_** – follow the standard methods as described by the W3 Consortium - [https://www.rfc-editor.org/rfc/rfc9110.html#name-methods](https://www.rfc-editor.org/rfc/rfc9110.html#name-methods)
 - **_Segment response data for large queries_** – APIs exposing large datasets must support some form of data segmentation. The following are some common patterns for pagination along with appropriate use cases:
 
   - _`page`_ and _`per_page`_ – best used to navigate large static datasets (e.g., reference data) where the same set of data is likely to be returned given the same page reference over time
@@ -132,7 +132,7 @@ Consistent metadata and encoding ensures that APIs are interoperable across orga
 
 # API Documentation
 
-BC Government APIs must be published to the [BC Government API Registry](https://catalogue.data.gov.bc.ca/he/group/bc-government-api-registry) to be discoverable.  The documentation MVP for BC Government APIs includes everything the API does, including resources, endpoints and methods, parameters, error codes, and example requests and responses:
+BC Government APIs must be published to the [BC Government API Registry](https://catalogue.data.gov.bc.ca/group/bc-government-api-registry) to be discoverable.  The documentation MVP for BC Government APIs includes everything the API does, including resources, endpoints and methods, parameters, error codes, and example requests and responses:
 
 - **_Publish OpenAPI Specification_** – OpenAPI is a machine-readable interface specification for RESTful APIs. There are open source tools (e.g., [Swagger](https://swagger.io/solutions/api-documentation/)) which can then generate human-readable documentation from this specification which avoids the need to create and maintain separate documentation
   - Sample BC Government API Specifications can be found [here](https://catalogue.data.gov.bc.ca/dataset/bc-data-catalogue-api/resource/0b9e7d31-91ff-4146-a473-106a3b301964)
