@@ -1,0 +1,20 @@
+bcgov_pubcode_version: 1
+data_management_roles:
+  data_custodian: Jeff Card
+  product_owner: Jeff Card
+product_information:
+  ministry:
+    - Water, Land and Resource Stewardship
+  product_acronym: BCGOVAPI
+  product_description: >-
+    A set of principles and guidelines to foster the creation of consistent,
+    reliable and accessible application programming interfaces (API's)
+  product_name: Province of British Columbia API Guidelines
+  product_status: active
+  product_urls:
+    - https://github.com/bcgov/api-guidelines
+  program_area: Natural Resources Information and Digital Services
+product_technology_information:
+  hosting_platforms:
+    - Other
+  hosting_platforms_custom: Github
